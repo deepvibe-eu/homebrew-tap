@@ -7,6 +7,8 @@ Homebrew formulae for [DeepVibe](https://github.com/deepvibe-eu/DeepVibe), the
 
 ```sh
 brew tap deepvibe-eu/tap
+# newer Homebrew requires trusting third-party taps before loading a formula:
+brew trust --formula deepvibe-eu/tap/deepvibe
 brew install deepvibe
 ```
 
